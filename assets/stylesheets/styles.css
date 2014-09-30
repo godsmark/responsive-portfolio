@@ -13,13 +13,13 @@ body {
 /* ===== HEADER ===== */
 
 header {
-	padding: 60px 7.5%; /* 90px/1200px = 0.075 */
+	padding: 5% 7.5%; /* 90px/1200px = 0.075 */
 	overflow: auto;
 }
 
 header .title {
 	width: 63.75%; /* 765px/1200 = 63.75% (margin-right included) */
-	margin-right: 60px;
+	margin-right: 5%;
 	float: left;
 }
 
@@ -51,7 +51,7 @@ main {
 
 main .about {
 	width: 63.75%; /* 765/1200 = 0.6375 (margin-right included) */
-	margin-right: 60px;
+	margin-right: 5%;
 	float: left;
 	font-size: 1.5em;
 	line-height: 1.4em;
@@ -69,13 +69,13 @@ main .skills {
 
 main ul.work {
 	clear: both;
-	padding-top: 90px;
+	padding-top: 7.5%;
 }
 
 main ul.work li {
 	float: left;
 	width: 47.05882353%; /* 480/1020 = 0.4705882353 */
-	margin-bottom: 60px; 
+	margin-bottom: 5%; 
 }
 
 /* add margin to every other image */
@@ -90,6 +90,6 @@ main ul.work li img {
 /* ===== FOOTER ===== */
 
 footer {
-	padding: 60px 7.5%; /* 90/1200 = 0.075 */
+	padding: 5% 7.5%; /* 90/1200 = 0.075 */
 	color: #999;
 }
