@@ -13,22 +13,22 @@ body {
 /* ===== HEADER ===== */
 
 header {
-	padding: 60px 7.5%; /* 90px/1200px = 0.075*/
+	padding: 60px 7.5%; /* 90px/1200px = 0.075 */
 	overflow: auto;
 }
 
-header hgroup {
+header .title {
 	width: 63.75%; /* 765px/1200 = 63.75% (margin-right included) */
 	margin-right: 60px;
 	float: left;
 }
 
-header hgroup h1 {
+header .title h1 {
 	font-size: 2em; /* 32px? */
 	margin-bottom: 0.5em; /* 8px? */
 }
 
-header hgroup h2 {
+header .title h2 {
 	font-size: 1.5em; /* 24px? */
 	color: #999;
 }
@@ -45,7 +45,7 @@ header .contact {
 main {
 	background: #000;
 	color: #fff;
-	padding: 7.5%; /* 90/1200 = 0.075*/
+	padding: 7.5%; /* 90/1200 = 0.075 */
 	overflow: auto;
 }
 
