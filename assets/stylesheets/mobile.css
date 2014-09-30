@@ -1,0 +1,46 @@
+/* Media queries go here */
+
+/* screens up to 800px */
+@media only screen and (max-width: 800px) {
+	
+	header {
+		padding: 20px 4%; 
+	}
+
+	header hgroup h1 {
+		margin-bottom: 0.2em; 
+	}
+
+	header .contact {
+		width: 100%; /* no float made 100% */
+		padding: 10px 0px;
+	}
+
+	main {
+		padding: 4%;
+	}
+
+	main .about {
+		width: 100%;
+		padding-bottom: 0.6em;
+	}
+
+	main .skills {
+		width: 100%; 
+	}
+
+	main ul.work {
+		padding-top: 4%;
+	}
+
+}
+
+/* screens up to 500px */
+@media only screen and (max-width: 500px) {
+
+	main ul.work li {
+		width: 100%; 
+		margin-bottom: 20px; 
+	}
+
+}

@@ -1,0 +1,95 @@
+body {
+	font-family: Karla, sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	font-size: 100%; /* 16px default */
+	max-width: 1200px; 
+	/* make max-width why? */
+	margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+
+header {
+	padding: 60px 7.5%; /* 90px/1200px = 0.075*/
+	overflow: auto;
+}
+
+header hgroup {
+	width: 63.75%; /* 765px/1200 = 63.75% (margin-right included) */
+	margin-right: 60px;
+	float: left;
+}
+
+header hgroup h1 {
+	font-size: 2em; /* 32px? */
+	margin-bottom: 0.5em; /* 8px? */
+}
+
+header hgroup h2 {
+	font-size: 1.5em; /* 24px? */
+	color: #999;
+}
+
+header .contact {
+	width: 21.25%; /* 255px/1200px = 0.2125 */
+	float: right;
+	line-height: 1.5em; 
+	color: #999;
+}
+
+/* ===== MAIN ===== */
+
+main {
+	background: #000;
+	color: #fff;
+	padding: 7.5%; /* 90/1200 = 0.075*/
+	overflow: auto;
+}
+
+main .about {
+	width: 63.75%; /* 765/1200 = 0.6375 (margin-right included) */
+	margin-right: 60px;
+	float: left;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #ccc;
+}
+
+main .skills {
+	width: 21.25%; /* 255/1200 = 0.2125 */
+	float: right;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #666;
+	line-height: 1.5em;
+}
+
+main ul.work {
+	clear: both;
+	padding-top: 90px;
+}
+
+main ul.work li {
+	float: left;
+	width: 47.05882353%; /* 480/1020 = 0.4705882353 */
+	margin-bottom: 60px; 
+}
+
+/* add margin to every other image */
+main ul.work li:nth-child(2n-1) {
+	margin-right: 5.882352941%; /* 60/1020 = 0.05882352941 */
+}
+
+main ul.work li img {
+	max-width: 100%;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+	padding: 60px 7.5%; /* 90/1200 = 0.075 */
+	color: #999;
+}
